@@ -6,7 +6,7 @@
 }
 
   body {
-    background-image: url(../images/bg-mobile.svg);
+    background-image: url(./images/bg-mobile.svg);
     background-repeat:no-repeat;
     background-color: hsl(257, 40%, 49%);
     background-size: contain;
@@ -100,7 +100,7 @@
   }
   
   body {
-    background: url(../images/bg-desktop.svg) no-repeat;
+    background: url(./images/bg-desktop.svg) no-repeat;
     background-size: cover;
     background-color: hsl(257, 40%, 49%);
     margin: 0;
