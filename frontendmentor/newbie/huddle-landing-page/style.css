@@ -20,10 +20,6 @@
     padding: 15px 8px;
   }
   
-  .top {
-    justify-content: center;
-    /*text-align: center;*/
-  }
   
   .logo {
     align-self: flex-start;
@@ -126,7 +122,7 @@
   
   .mockup {
     width: 55%;
-    margin-top: 40px;
+    margin-top: 25px;
     padding: 0;
   }
   
@@ -134,22 +130,26 @@
     width: 40%;
     align-self: flex-start;
     margin-top:80px;
+    margin-right: 60px;
     
   }
   
-  h1 {
-    font-size: 3em;
+  div h1 {
+    font-size: 2.5em;
     color: white;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
+    margin-top: 0;
+    text-align: left;
   }
   
-  p {
-    font-size: 1.25em;
-    width: 100%;
+  div p {
+    font-size: 1em;
+    width: 85%;
     /*padding: 10%;*/
     margin-top: 40px;
     color: white;
+    text-align: left;
   }
   
   .logo {
@@ -161,19 +161,20 @@
     
   }
   
-  button {
+  div button {
     margin: 0;
     padding: 0;
     
     border-radius: 50px;
     border: none;
     color:  hsl(257, 40%, 49%);
-    font-size: 1.5em;
+    font-size: 1em;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.296);
     text-align: center;
-    width: 240px;
-    padding: 20px;
+    width: 150px;
+    padding: 15px;
     margin-top: 20px;
+    margin-left: 40px;
   }
 
   .bottom {
