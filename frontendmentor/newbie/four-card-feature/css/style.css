@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+:root {
+  
+  /* Primary Colors */
+  
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  
+  /* Neutral Colors */
+  
+  --dark-blue: hsl(234, 12%, 34%);
+  --grayish-blue: hsl(229, 6%, 66%);
+  --light-gray: hsl(0, 0%, 98%);
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--light-gray);
+  color: var(--dark-blue);
+  font-size: 15px;
+  text-align: center;
+  
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 10% 5% 5%;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto 2rem;
+}
+
+.header h1{
+  font-size: 1.5rem;
+}
+
+.header h2 {
+  font-weight: 200;
+  font-size: 1.5rem;
+}
+
+.header p {
+  color: var(--grayish-blue);
+  font-weight: 400;
+  padding: 5%;
+}
+
+.card-container {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  
+}
+
+
+.card {
+  border-radius: 0.5em;
+ border: 1px ;
+ border-top-style: none;
+  margin-top: 7%;
+ box-shadow: 1px 7px 15px 1px var(--grayish-blue);
+ text-align: left;
+ padding: 5% 10%;
+}
+
+.supervisor {
+  border-top: 4px solid var(--cyan);
+  border-radius:0.5em;
+}
+
+.teambuilder {
+  border-top: 4px solid var(--red);
+  border-radius:0.5em;
+  padding-bottom: 0;
+}
+
+.karma {
+  border-top: 4px solid var(--orange);
+  border-radius:0.5em;
+}
+.calculator {
+  border-top: 4px solid var(--blue);
+  border-radius:0.5em;
+}
+
+
+.card p {
+  font-size: 0.85rem;
+  width: 90%;
+  padding: 3% 4% 8% 0;
+  color: var(--grayish-blue);
+  
+}
+
+.img {
+  position: relative;
+  text-align: right;
+  padding: 5% 0;
+}
+
+@media screen and (min-width: 768px) {
+ 
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5% 5% 5%;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+  }
+  
+  .card-box {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 30%;
+  }
+  
+  .supervisor {
+    
+    margin: 15% 5% 0 5%;
+
+  }
+  
+  .calculator {
+    margin: 15% 5% 0 5%;
+  }
+  
+  .teambuilder {
+    margin: 0 5% 5% 5%;
+  }
+  
+  .karma {
+    margin: 5% 5% 0 5%;
+  }
+  
+  .header {
+    margin: 0;
+  }
+  .header h1, .header h2 {
+    font-size: 2.2rem;
+  }
+  
+  
+  .header p {
+    width: 45%;
+    text-align: center;
+    padding: 2% 0 6% 0;
+  }
+}
